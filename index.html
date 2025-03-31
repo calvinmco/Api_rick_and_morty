@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Personajes  Rick and Morty</title>
+</head>
+<body  id="container">
+
+
+    <img src="./rick-y-morty-logo-png_seeklogo-531754.png" alt="Rick and Morty Logo" id="logo">
+    <h1>Consulta de personajes en la serie de Rick and Morty</h1>
+
+    <input type="text" name="input_personaje"  id="input_personaje" placeholder="Escribe el nombre de un personaje">
+    <button id="button_search" onclick="obtenerValorInput()">Buscar:</button>
+    
+    <div id="character-information">
+        <h3>Información del personaje</h3>
+        <div id="show-info"></div>
+    </div>
+
+
+
+</body>
+</html>
